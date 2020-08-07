@@ -3,28 +3,28 @@
 print("hello max")
 print("*" * 10)
 print(); print()
-#string
+# string
 var_str_name = "oren"
 print("My name is "+ var_str_name + ".")
-#bool
+# bool
 var_bool_true = True
 
 #float
 var_float = 10.4
-#input and \n for new line
+# input and \n for new line
 last_name=input("Enter your last name\n")
 print("Your last name is " + last_name)
 
 
-#convert string to int and then int to string
+# convert string to int and then int to string
 birth_year=input("Birth year?\n")
-#check what type of var is it
+# check what type of var is it
 print(type(birth_year))
 age = 2020-int(birth_year)
 print(type(age))
 print("You are "+ str(age) + " Years old.")
 
-#Multiple line of string
+# Multiple line of string
 multi_line="""
 Hi Oren, 
 this is my msg
@@ -34,13 +34,13 @@ the end.
 
 """
 print(multi_line)
-#Substring from 0 for 9 in the string multi_line
+# Substring from 0 for 9 in the string multi_line
 print(multi_line[0:9])
-#from 5 to end
+# from 5 to end
 from5_2_end = multi_line[5:]
-#from 0 to 5
+# from 0 to 5
 from0_2_5 = multi_line[:5]
-#Only the the scond char from the end
+# Only the the scond char from the end
 second_from_end = multi_line[-2]
 
 
